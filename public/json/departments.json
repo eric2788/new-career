@@ -1,0 +1,62 @@
+[
+  {
+    "name": "行政部 Administration Department",
+    "id": "AD",
+    "icon": "home",
+    "sub": "負責管理本組織內部行政架構及進行事務分配"
+  },
+  {
+    "name": "法務部 Legal Affairs Department #",
+    "id": "LAD",
+    "icon": "home",
+    "sub": "負責 製定一些不同規條負責"
+  },
+  {
+    "name": "人力資源部 Human Resources Department *",
+    "id": "HRD",
+    "icon": "home",
+    "sub": "負責本組織人力資源分配及人力資源管理並且有機會需要負責進行面試監察"
+  },
+  {
+    "name": "設計部 Department of Art",
+    "id": "DOA",
+    "icon": "home",
+    "sub": "包括圖片，影片製作，Logo設計，材質設計、招生文，團招文、EDM 等等"
+  },
+  {
+    "name": "營運部 Operation Department #",
+    "id": "OD",
+    "icon": "home",
+    "sub": "Minecraft 伺服器管理員職位"
+  },
+  {
+    "name": "遊戲設計及支援部 Game Design and Support Unit #",
+    "id": "GDASU",
+    "icon": "home",
+    "sub": "負責 MC 建築 / 遊戲開發"
+  },
+  {
+    "name": "商業事務部 Ministry of Commerce #",
+    "id": "MOC",
+    "icon": "home",
+    "sub": "負責本組織的數據分析統計 , 組織的營利事務"
+  },
+  {
+    "name": "資訊科技部 Information and Technology Department #",
+    "id": "ITD",
+    "icon": "home",
+    "sub": "包括伺服器的網絡安全事務 / 伺服器網站範疇 / 技術支援"
+  },
+  {
+    "name": "研發部 Research Department",
+    "id": "RD",
+    "icon": "home",
+    "sub": "負責構思一些大型伺服器活動或構思一些新的伺服器 , eg: UHC"
+  },
+  {
+    "name": "會計及財務部 Accounting Department #",
+    "id": "AD2",
+    "icon": "home",
+    "sub": "組織財政計算及進行較複雜統計"
+  }
+]
