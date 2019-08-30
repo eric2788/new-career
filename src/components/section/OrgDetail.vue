@@ -14,10 +14,7 @@
 <script lang="ts">
     import Vue from 'vue';
     import Component from "vue-class-component";
-    interface SubDetail{
-        title: string,
-        sub: string
-    }
+
     @Component
     export default class Details extends Vue{
         private details: Array<SubDetail> = [];

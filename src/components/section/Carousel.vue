@@ -15,12 +15,6 @@
     import Vue from 'vue';
     import Component from "vue-class-component";
 
-    interface SlideItem {
-        title: string,
-        subtitle?: string,
-        link?: string,
-        img: string
-    }
 
     @Component
     export default class Carousel extends Vue {

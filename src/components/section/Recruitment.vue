@@ -19,12 +19,6 @@
     import Vue from 'vue';
     import Component from "vue-class-component";
 
-    interface Recruit {
-        title: string,
-        subtitle: string,
-        pdf: string
-        img: string
-    }
 
     @Component
     export default class Recruitment extends Vue {

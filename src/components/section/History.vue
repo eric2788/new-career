@@ -24,14 +24,6 @@
     import Vue from "vue";
     import {Prop} from "vue-property-decorator";
 
-    interface HistoryRecord {
-        year: string,
-        title: string,
-        content: string[],
-        icon: string,
-        fillDot: boolean,
-        smallDot: boolean
-    }
 
     @Component
     export default class History extends Vue {

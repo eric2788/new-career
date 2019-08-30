@@ -28,7 +28,7 @@
             <div class="flex-grow-1"></div>
             <v-menu offset-y open-on-hover>
                 <template v-slot:activator="{ on }">
-                    <v-btn text v-on=" on " tile v-show="!$vuetify.breakpoint.mdAndDown">
+                    <v-btn text tile v-on=" on " v-show="!$vuetify.breakpoint.mdAndDown && $route.path === '/'">
                         <v-icon dark left small>mdi-redo-variant</v-icon>
                         跳轉到...
                     </v-btn>
@@ -60,11 +60,6 @@
     import {Watch} from "vue-property-decorator";
     import {jumpInto, Sections} from "@/ts/sections";
 
-    interface Item {
-        title: string,
-        id: Sections
-        icon: string
-    }
 
     @Component
     export default class App extends Vue {

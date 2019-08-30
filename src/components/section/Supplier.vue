@@ -28,11 +28,7 @@
     import Vue from 'vue';
     import Component from "vue-class-component";
 
-    interface Support{
-        title: string,
-        sub: string
-        icon: string
-    }
+
     @Component
     export default class Supplier extends Vue{
         private supports: Array<Support> = [];

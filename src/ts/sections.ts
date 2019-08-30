@@ -1,5 +1,3 @@
-export type Sections = 'carousel' | 'detail' | 'departs' | 'recruit' | 'apply' | 'support';
-
 export const jumpInto = (id: Sections) => {
     const elmnt: HTMLElement | null = document.getElementById(`${id}`);
     if (elmnt == null){

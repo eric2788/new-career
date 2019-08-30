@@ -30,12 +30,6 @@
     import Vue from 'vue';
     import Component from "vue-class-component";
 
-    interface Depart {
-        name: string,
-        id: string,
-        sub: string
-        icon: string
-    }
 
     @Component
     export default class Departs extends Vue {
