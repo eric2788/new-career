@@ -5,7 +5,7 @@
                 <h3 class="display-1">你準備好加入我們了嗎?</h3>
             </v-row>
             <v-row justify="center" class="align-content-center">
-                <v-btn color="error" x-large rounded>申請職位</v-btn>
+                <v-btn @click="$emit('apply')" color="error" rounded x-large>申請職位</v-btn>
             </v-row>
         </v-parallax>
     </v-content>
@@ -14,6 +14,7 @@
 <script lang="ts">
     import Vue from 'vue';
     import Component from "vue-class-component";
+
     @Component
     export default class Applier extends Vue{
 

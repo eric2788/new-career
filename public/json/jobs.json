@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Hyper Group 部門職位",
+    "color": "deep-purple darken-2",
+    "jobs": [
+      {
+        "title": "普通職位",
+        "src": "https://career.hypernology.com/img/bg01.png",
+        "link": "#"
+      },
+      {
+        "title": "管理層職位",
+        "src": "https://career.hypernology.com/img/bg01.png",
+        "link": "#"
+      }
+    ]
+  },
+  {
+    "title": "HyperNiteMC - 伺服管理層職位",
+    "color": "blue darken-2",
+    "jobs": [
+      {
+        "title": "建築師",
+        "src": "https://career.hypernology.com/img/bg01.png",
+        "link": "#"
+      },
+      {
+        "title": "材質設計師/插件自製師",
+        "src": "https://career.hypernology.com/img/bg01.png",
+        "link": "#"
+      }
+    ]
+  },
+  {
+    "title": "HyperNiteMC - 玩家管理層職位",
+    "color": "teal darken-2",
+    "jobs": [
+      {
+        "title": "Helper - 協助人員職位",
+        "src": "https://career.hypernology.com/img/bg01.png",
+        "link": "#"
+      },
+      {
+        "title": "晉升 Mod - 管理人員職位",
+        "src": "https://career.hypernology.com/img/bg01.png",
+        "link": "#"
+      }
+    ]
+  }
+]

@@ -30,6 +30,18 @@ declare interface HistoryRecord {
     smallDot: boolean
 }
 
+declare interface Job {
+    title: string,
+    src: string,
+    link: string
+}
+
+declare interface Jobs {
+    title: string,
+    color: string
+    jobs: Array<Job>
+}
+
 declare interface SubDetail{
     title: string,
     sub: string
